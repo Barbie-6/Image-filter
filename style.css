@@ -1,0 +1,10 @@
+h3 {
+    font-size: 40px;
+    background-color: antiquewhite;
+    width: 80% !important;
+}
+#btn1 {
+    font-size: 20px;
+    color: black;
+    background-color: lightpink;
+}
