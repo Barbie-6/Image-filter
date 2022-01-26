@@ -1,5 +1,8 @@
-function preload() {
+lower_nose_x = 0;
+lower_nose_y = 0;
 
+function preload() {
+    moustache = loadImage("https://i.postimg.cc/Jn2fZ4DF/moustache-removebg-preview.png");
 }
 function setup() {
     canvas = createCanvas(300, 300);
@@ -13,6 +16,8 @@ function setup() {
 }
 function draw() {
     image(video, 0, 0, 300, 300);
+
+    image(moustache, lower_nose_x - 15, lower_nose_y - 10, 30, 30);
 
 }
 function modelLoaded() {
