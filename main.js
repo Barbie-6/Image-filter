@@ -18,7 +18,7 @@ function draw() {
 function modelLoaded() {
     console.log("mdel is initialized");
 }
-function gotPoses() {
+function gotPoses(results) {
     if (results.length > 0)
     {
         console.log(results)
